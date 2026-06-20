@@ -48,15 +48,18 @@ export default function Privacy() {
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">Cast Chat</h2>
             <p>
-              Cast Chat requires an account and uses AI to transcribe, summarize, and chat about
-              podcast episodes. The following data is collected and processed to operate the service.
+              Cast Chat uses AI to transcribe, summarize, and chat about podcast episodes. You can use
+              it with an account (for the built-in AI and an optional subscription) or as a guest by
+              providing your own AI provider API key. The following data is collected and processed to
+              operate the service.
             </p>
 
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Account Information</h3>
+            <h3 className="text-lg font-bold text-gray-900 mt-6">Account Information (Optional)</h3>
             <p>
-              You sign in with Apple or Google. We store your account identifier, and your email and
-              name when your provider shares them, to manage your account and subscription. Authentication
-              is handled by Google Firebase.
+              An account is optional — Cast Chat can be used as a guest without signing in. If you choose
+              to sign in with Apple or Google, we store your account identifier, and your email and name
+              when your provider shares them, to manage your account and subscription. Authentication is
+              handled by Google Firebase.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6">On-Device Transcription</h3>
@@ -68,18 +71,32 @@ export default function Privacy() {
             <h3 className="text-lg font-bold text-gray-900 mt-6">AI Features</h3>
             <p>
               When you use AI summaries, chat, quizzes, or Voice Mode, the relevant episode transcript
-              text and your questions are sent to Google's Gemini models to generate a response.
-              To make the app faster and reduce repeated work, transcripts and AI-generated character
-              profiles are saved to our backend (Google Firestore) and may be reused by other users
-              for the same episode. This shared content is keyed to the episode rather than shown
+              text and your questions are sent to an AI provider to generate a response. With the built-in
+              AI (available when you are signed in), this is Google's Gemini models accessed through our
+              backend; to make the app faster and reduce repeated work, transcripts and AI-generated
+              character profiles are saved to our backend (Google Firestore) and may be reused by other
+              users for the same episode. This shared content is keyed to the episode rather than shown
               alongside your profile, though a reference to the contributing account is retained.
+            </p>
+            <p>
+              If you provide your own API key, your requests are sent directly from your device to your
+              chosen provider — Google (Gemini) or Anthropic (Claude) — and are governed by that
+              provider's privacy policy. In that case we do not store your transcripts or AI content on
+              our backend.
+            </p>
+
+            <h3 className="text-lg font-bold text-gray-900 mt-6">Your Own API Keys</h3>
+            <p>
+              If you bring your own Gemini or Claude API key, it is stored securely in your device's
+              Keychain and is never sent to or stored by us.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6">Usage &amp; Subscriptions</h3>
             <p>
-              We store basic usage metrics (such as episode downloads and Voice Mode sessions) and your
-              Cast Chat Pro subscription status. Subscription purchases are processed by Apple; we do not
-              receive your payment details.
+              When you are signed in, we store basic usage metrics (such as episode downloads and Voice
+              Mode sessions) and your Cast Chat Pro subscription status. Subscription purchases are
+              processed by Apple; we do not receive your payment details. Guests have no account, so this
+              information is not stored on our backend.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6">No Advertising or Tracking</h3>
@@ -99,9 +116,10 @@ export default function Privacy() {
 
             <h3 className="text-lg font-bold text-gray-900 mt-6">Third-Party Services</h3>
             <p>
-              Cast Chat relies on Google Firebase (authentication and data storage) and Google's
-              Gemini models (AI features); their handling of data is governed by Google's privacy
-              policy. Subscriptions are processed by Apple under Apple's privacy policy.
+              Cast Chat relies on Google Firebase (authentication and data storage) and, for AI features,
+              Google's Gemini models and — if you choose to use your own key — Anthropic's Claude models.
+              Their handling of data is governed by Google's and Anthropic's respective privacy policies.
+              Subscriptions are processed by Apple under Apple's privacy policy.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mt-6">Children</h3>
