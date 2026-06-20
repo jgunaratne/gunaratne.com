@@ -91,7 +91,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 items-center">
               <a
-                href="https://apps.apple.com/app/hanzi-match"
+                href="https://apps.apple.com/us/app/hanzi-match-learn-chinese/id6761600791"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block hover:opacity-80 transition"
