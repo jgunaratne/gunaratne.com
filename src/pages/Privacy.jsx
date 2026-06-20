@@ -18,7 +18,7 @@ export default function Privacy() {
       <div className="max-w-2xl mx-auto px-6 py-16">
         <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm">
           <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
-          <p className="text-gray-500 mb-8 italic text-sm">Last Updated: October 2024</p>
+          <p className="text-gray-500 mb-8 italic text-sm">Last Updated: June 2026</p>
 
           <div className="space-y-6 leading-relaxed text-gray-700">
             <p>
