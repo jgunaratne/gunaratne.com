@@ -17,14 +17,14 @@ export default function Support() {
 
       <div className="max-w-xl mx-auto px-6 py-16">
         <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm">
-          <h1 className="text-3xl font-bold mb-4">Hanzi Match Support</h1>
-          <p className="text-gray-500 mb-8">We're here to help you master Chinese characters.</p>
+          <h1 className="text-3xl font-bold mb-4">Support</h1>
+          <p className="text-gray-500 mb-8">We're here to help with any of our apps.</p>
 
           <div className="space-y-8">
             <section>
               <h2 className="font-bold text-lg mb-2 text-blue-600">Contact Us</h2>
               <p className="text-gray-700">
-                For bug reports or feature requests:<br />
+                For bug reports, feature requests, or any questions about our apps:<br />
                 <Link
                   to="/contact"
                   className="inline-block mt-2 px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-full hover:bg-slate-700 transition"
@@ -35,19 +35,12 @@ export default function Support() {
             </section>
 
             <section>
-              <h2 className="font-bold text-lg mb-2">FAQ</h2>
-              <div className="space-y-4 text-gray-700">
-                <p>
-                  <strong>How do I see the pinyin?</strong><br />
-                  Simply tap the blue card to flip it over. It will reveal the pinyin
-                  and the English meaning.
-                </p>
-                <p>
-                  <strong>Can I change the number of cards?</strong><br />
-                  Yes! Tap the gear icon in the top right to select between 10, 20, 30, 50,
-                  or all cards.
-                </p>
-              </div>
+              <h2 className="font-bold text-lg mb-2">Response Time</h2>
+              <p className="text-gray-700">
+                We aim to respond to all support requests within a few business days.
+                Please include the name of the app and your device details to help us
+                resolve your issue faster.
+              </p>
             </section>
           </div>
         </div>
