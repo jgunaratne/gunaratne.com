@@ -47,6 +47,11 @@ export default function Privacy() {
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">Cast Chat</h2>
+            <p className="text-sm text-gray-500 mb-2">
+              <Link to="/cast-chat/privacy" className="text-blue-600 hover:underline">
+                View the full Cast Chat privacy policy →
+              </Link>
+            </p>
             <p>
               Cast Chat uses AI to transcribe, summarize, and chat about podcast episodes. You can use
               it with an account (for the built-in AI and an optional subscription) or as a guest by
