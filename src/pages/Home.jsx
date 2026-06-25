@@ -53,7 +53,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex gap-4 text-sm">
-                <a href="/privacy" className="text-blue-600 hover:underline">Privacy</a>
+                <a href="/cast-chat/privacy" className="text-blue-600 hover:underline">Privacy</a>
                 <a href="/support" className="text-blue-600 hover:underline">Support</a>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex gap-4 text-sm">
-                <a href="/privacy" className="text-blue-600 hover:underline">Privacy</a>
+                <a href="/hanzi-match/privacy" className="text-blue-600 hover:underline">Privacy</a>
                 <a href="/support" className="text-blue-600 hover:underline">Support</a>
               </div>
             </div>

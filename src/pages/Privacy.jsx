@@ -24,114 +24,42 @@ export default function Privacy() {
             <p>
               <strong className="text-gray-900">Our apps</strong> are built with privacy as a core principle.
               We never sell your data and we never use advertising or third-party tracking SDKs.
-              Because our apps work differently, the details below are organized by app.
+              Each app has its own dedicated privacy policy:
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-10">Hanzi Match</h2>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">No Collection</h3>
-            <p>
-              Hanzi Match does not collect, store, or share any personal data.
-              We have no access to your name, email, or usage habits.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Local Storage</h3>
-            <p>
-              Your game progress and settings (like game mode and card count) are stored
-              locally on your device via standard iOS storage. This data never leaves your device.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">No Third Parties</h3>
-            <p>
-              We do not use analytics SDKs, advertising frameworks, or any third-party tracking tools.
-            </p>
-
-            <h2 className="text-2xl font-bold text-gray-900 mt-10">Cast Chat</h2>
-            <p className="text-sm text-gray-500 mb-2">
-              <Link to="/cast-chat/privacy" className="text-blue-600 hover:underline">
-                View the full Cast Chat privacy policy →
+            <div className="space-y-4 mt-8">
+              <Link
+                to="/cast-chat/privacy"
+                className="flex items-center gap-4 p-5 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition"
+              >
+                <img
+                  src="/cast-chat-icon.png"
+                  alt="Cast Chat icon"
+                  className="w-12 h-12 rounded-xl shadow-sm"
+                />
+                <div>
+                  <h2 className="text-lg font-bold text-gray-900">Cast Chat</h2>
+                  <p className="text-sm text-gray-500">AI podcast player — transcribe, summarize, and chat</p>
+                </div>
+                <span className="ml-auto text-blue-600 text-lg">→</span>
               </Link>
-            </p>
-            <p>
-              Cast Chat uses AI to transcribe, summarize, and chat about podcast episodes. You can use
-              it with an account (for the built-in AI and an optional subscription) or as a guest by
-              providing your own AI provider API key. The following data is collected and processed to
-              operate the service.
-            </p>
 
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Account Information (Optional)</h3>
-            <p>
-              An account is optional — Cast Chat can be used as a guest without signing in. If you choose
-              to sign in with Apple or Google, we store your account identifier, and your email and name
-              when your provider shares them, to manage your account and subscription. Authentication is
-              handled by Google Firebase.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">On-Device Transcription</h3>
-            <p>
-              Episode transcription runs entirely on your device using Apple's Speech framework.
-              Your audio never leaves your phone.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">AI Features</h3>
-            <p>
-              When you use AI summaries, chat, quizzes, or Voice Mode, the relevant episode transcript
-              text and your questions are sent to an AI provider to generate a response. With the built-in
-              AI (available when you are signed in), this is Google's Gemini models accessed through our
-              backend; to make the app faster and reduce repeated work, transcripts and AI-generated
-              character profiles are saved to our backend (Google Firestore) and may be reused by other
-              users for the same episode. This shared content is keyed to the episode rather than shown
-              alongside your profile, though a reference to the contributing account is retained.
-            </p>
-            <p>
-              If you provide your own API key, your requests are sent directly from your device to your
-              chosen provider — Google (Gemini) or Anthropic (Claude) — and are governed by that
-              provider's privacy policy. In that case we do not store your transcripts or AI content on
-              our backend.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Your Own API Keys</h3>
-            <p>
-              If you bring your own Gemini or Claude API key, it is stored securely in your device's
-              Keychain and is never sent to or stored by us.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Usage &amp; Subscriptions</h3>
-            <p>
-              When you are signed in, we store basic usage metrics (such as episode downloads and Voice
-              Mode sessions) and your Cast Chat Pro subscription status. Subscription purchases are
-              processed by Apple; we do not receive your payment details. Guests have no account, so this
-              information is not stored on our backend.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">No Advertising or Tracking</h3>
-            <p>
-              We do not use advertising frameworks or third-party tracking tools, and we do not sell
-              your personal data.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Account &amp; Data Deletion</h3>
-            <p>
-              You can delete your account at any time from within Cast Chat, or by{' '}
-              <Link to="/contact" className="text-blue-600 hover:underline">contacting us</Link>.
-              Deleting your account removes your account record and associated usage and subscription
-              data from our backend. Shared episode transcripts that are no longer linked to your
-              account may be retained so the app continues to work for other users.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Third-Party Services</h3>
-            <p>
-              Cast Chat relies on Google Firebase (authentication and data storage) and, for AI features,
-              Google's Gemini models and — if you choose to use your own key — Anthropic's Claude models.
-              Their handling of data is governed by Google's and Anthropic's respective privacy policies.
-              Subscriptions are processed by Apple under Apple's privacy policy.
-            </p>
-
-            <h3 className="text-lg font-bold text-gray-900 mt-6">Children</h3>
-            <p>
-              Cast Chat is not directed to children under 13, and we do not knowingly collect personal
-              information from children.
-            </p>
+              <Link
+                to="/hanzi-match/privacy"
+                className="flex items-center gap-4 p-5 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition"
+              >
+                <img
+                  src="/AppIcon.png"
+                  alt="Hanzi Match icon"
+                  className="w-12 h-12 rounded-xl shadow-sm"
+                />
+                <div>
+                  <h2 className="text-lg font-bold text-gray-900">Hanzi Match</h2>
+                  <p className="text-sm text-gray-500">Chinese character matching game — zero data collection</p>
+                </div>
+                <span className="ml-auto text-blue-600 text-lg">→</span>
+              </Link>
+            </div>
 
             <hr className="my-8 border-gray-200" />
 
