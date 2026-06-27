@@ -29,16 +29,16 @@ export default function Privacy() {
 
             <div className="space-y-4 mt-8">
               <Link
-                to="/cast-chat/privacy"
+                to="/podpal/privacy"
                 className="flex items-center gap-4 p-5 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition"
               >
                 <img
                   src="/cast-chat-icon.png"
-                  alt="Cast Chat icon"
+                  alt="PodPal icon"
                   className="w-12 h-12 rounded-xl shadow-sm"
                 />
                 <div>
-                  <h2 className="text-lg font-bold text-gray-900">Cast Chat</h2>
+                  <h2 className="text-lg font-bold text-gray-900">PodPal</h2>
                   <p className="text-sm text-gray-500">AI podcast player — transcribe, summarize, and chat</p>
                 </div>
                 <span className="ml-auto text-blue-600 text-lg">→</span>

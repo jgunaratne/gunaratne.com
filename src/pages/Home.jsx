@@ -26,14 +26,14 @@ export default function Home() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* Cast Chat */}
+          {/* PodPal */}
           <div className="app-card bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm">
             <img
               src="/cast-chat-icon.png"
-              alt="Cast Chat App Icon"
+              alt="PodPal App Icon"
               className="w-20 h-20 rounded-2xl mb-8 shadow-lg"
             />
-            <h3 className="text-2xl font-bold mb-3">Cast Chat</h3>
+            <h3 className="text-2xl font-bold mb-3">PodPal</h3>
             <p className="text-gray-500 mb-8 text-lg leading-relaxed">
               The AI podcast player that respects your time. Transcribe and
               summarize any episode, chat with episodes using your voice, and
@@ -53,7 +53,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex gap-4 text-sm">
-                <a href="/cast-chat/privacy" className="text-blue-600 hover:underline">Privacy</a>
+                <a href="/podpal/privacy" className="text-blue-600 hover:underline">Privacy</a>
                 <a href="/support" className="text-blue-600 hover:underline">Support</a>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
                   {/* Screenshot */}
                   <img
                     src="/cast-chat.png"
-                    alt="Cast Chat Screenshot"
+                    alt="PodPal Screenshot"
                     className="w-full rounded-[2.25rem]"
                   />
                 </div>
