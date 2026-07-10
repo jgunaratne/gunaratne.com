@@ -41,7 +41,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 items-center">
               <a
-                href="https://apps.apple.com/app/cast-chat"
+                href="https://apps.apple.com/us/app/podpal/id6775019893"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block hover:opacity-80 transition"
