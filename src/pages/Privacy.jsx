@@ -59,6 +59,22 @@ export default function Privacy() {
                 </div>
                 <span className="ml-auto text-blue-600 text-lg">→</span>
               </Link>
+
+              <Link
+                to="/recall-tutor/privacy"
+                className="flex items-center gap-4 p-5 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition"
+              >
+                <img
+                  src="/recall-tutor-icon.png"
+                  alt="Recall Tutor icon"
+                  className="w-12 h-12 rounded-xl shadow-sm"
+                />
+                <div>
+                  <h2 className="text-lg font-bold text-gray-900">Recall Tutor</h2>
+                  <p className="text-sm text-gray-500">AI lectures, quizzes, and a live voice tutor</p>
+                </div>
+                <span className="ml-auto text-blue-600 text-lg">→</span>
+              </Link>
             </div>
 
             <hr className="my-8 border-gray-200" />

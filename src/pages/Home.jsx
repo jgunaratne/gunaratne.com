@@ -125,6 +125,56 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Recall Tutor */}
+          <div className="app-card bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm">
+            <img
+              src="/recall-tutor-icon.png"
+              alt="Recall Tutor App Icon"
+              className="w-20 h-20 rounded-2xl mb-8 shadow-lg"
+            />
+            <h3 className="text-2xl font-bold mb-3">Recall Tutor</h3>
+            <p className="text-gray-500 mb-8 text-lg leading-relaxed">
+              Pick any topic and get a bite-sized AI lecture with visual cards,
+              a recall quiz, and a live voice tutor who explains it out loud —
+              at your reading level, from Elementary to University.
+            </p>
+            <div className="flex flex-wrap gap-4 items-center">
+              <a
+                href="https://apps.apple.com/us/app/recall-tutor/id0000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-80 transition"
+              >
+                <img
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+                  alt="Download on App Store"
+                  className="h-11"
+                />
+              </a>
+              <div className="flex gap-4 text-sm">
+                <a href="/recall-tutor/privacy" className="text-blue-600 hover:underline">Privacy</a>
+                <a href="/support" className="text-blue-600 hover:underline">Support</a>
+              </div>
+            </div>
+          </div>
+
+          {/* iPhone Screenshot */}
+          <div className="flex justify-center">
+            <div className="relative w-64 md:w-72">
+              {/* iPhone frame */}
+              <div className="bg-slate-900 rounded-[3rem] p-3 shadow-2xl">
+                <div className="bg-black rounded-[2.5rem] overflow-hidden">
+                  {/* Screenshot */}
+                  <img
+                    src="/recall-tutor.png"
+                    alt="Recall Tutor Screenshot"
+                    className="w-full rounded-[2.25rem]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
