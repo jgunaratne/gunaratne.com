@@ -13,9 +13,9 @@ export default function Home() {
             Apps that help you <span className="text-blue-600">learn</span> faster.
           </h1>
           <p className="text-xl md:text-2xl font-normal tracking-tight text-gray-500 leading-relaxed">
-            We're Junius and Lindsay, independent app designers and developers in the
-            Pacific Northwest building tools that turn any topic, podcast, or language
-            into something you actually understand.
+            We're Junius and Lindsay, independent app designers and developers in
+            Seattle building tools that turn any topic, podcast, or language into
+            something you actually understand.
           </p>
         </div>
       </header>
