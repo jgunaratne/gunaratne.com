@@ -10,10 +10,12 @@ export default function Home() {
       <header className="max-w-5xl mx-auto px-6 py-24 md:py-32">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tight text-slate-900">
-            Building apps for the <span className="text-blue-600">modern</span> world.
+            AI apps that help you <span className="text-blue-600">learn</span> faster.
           </h1>
           <p className="text-xl md:text-2xl text-gray-500 leading-relaxed">
-            We are Junius and Lindsay, independent app development and UX specialists in the Pacific Northwest.
+            We're Junius and Lindsay, independent app designers and developers in the
+            Pacific Northwest building AI-powered tools that turn any topic, podcast,
+            or language into something you actually understand.
           </p>
         </div>
       </header>
