@@ -7,12 +7,12 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <header className="max-w-5xl mx-auto px-6 py-24 md:py-32">
-        <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tight text-slate-900">
+      <header className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-24 md:py-32">
+        <div className="max-w-3xl lg:max-w-4xl">
+          <h1 className="text-5xl md:text-7xl font-semibold mb-8 tracking-tight text-balance text-slate-900">
             Apps that help you <span className="text-blue-600">learn</span> faster.
           </h1>
-          <p className="text-xl md:text-2xl text-gray-500 leading-relaxed">
+          <p className="text-xl md:text-2xl font-normal tracking-tight text-gray-500 leading-relaxed">
             We're Junius and Lindsay, independent app designers and developers in the
             Pacific Northwest building tools that turn any topic, podcast, or language
             into something you actually understand.
@@ -21,9 +21,9 @@ export default function Home() {
       </header>
 
       {/* Apps Section */}
-      <section id="apps" className="max-w-5xl mx-auto px-6 py-12">
+      <section id="apps" className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-12">
         <div className="flex items-center justify-between mb-12">
-          <h2 className="text-3xl font-bold">Featured Apps</h2>
+          <h2 className="text-3xl font-semibold">Featured Apps</h2>
           <div className="h-1 w-24 bg-blue-600 rounded"></div>
         </div>
 
@@ -42,8 +42,8 @@ export default function Home() {
                 className="w-20 h-20 rounded-2xl mb-8 shadow-lg"
               />
             </a>
-            <h3 className="text-2xl font-bold mb-3">Recall Tutor</h3>
-            <p className="text-gray-500 mb-8 text-lg leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-3">Recall Tutor</h3>
+            <p className="text-gray-500 mb-8 text-lg font-normal tracking-tight leading-relaxed">
               Pick any topic and get a bite-sized AI lecture with visual cards,
               a recall quiz, and a live voice tutor who explains it out loud —
               at your reading level, from Elementary to University.
@@ -99,8 +99,8 @@ export default function Home() {
                 className="w-20 h-20 rounded-2xl mb-8 shadow-lg"
               />
             </a>
-            <h3 className="text-2xl font-bold mb-3">PodPal</h3>
-            <p className="text-gray-500 mb-8 text-lg leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-3">PodPal</h3>
+            <p className="text-gray-500 mb-8 text-lg font-normal tracking-tight leading-relaxed">
               The AI podcast player that respects your time. Transcribe and
               summarize any episode, chat with episodes using your voice, and
               get the highlights without listening to everything.
@@ -156,8 +156,8 @@ export default function Home() {
                 className="w-20 h-20 rounded-2xl mb-8 shadow-lg"
               />
             </a>
-            <h3 className="text-2xl font-bold mb-3">Hanzi Match</h3>
-            <p className="text-gray-500 mb-8 text-lg leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-3">Hanzi Match</h3>
+            <p className="text-gray-500 mb-8 text-lg font-normal tracking-tight leading-relaxed">
               Master Chinese characters through an engaging matching game.
               Flip cards to match hanzi with their pinyin and meaning.
               Perfect for beginners and intermediate learners.
